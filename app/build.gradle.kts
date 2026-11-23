@@ -41,5 +41,9 @@ dependencies {
     implementation("com.google.mlkit:translate:17.0.3")
     implementation("com.google.mlkit:language-id:17.0.6")
 
+    // Offline speech recognition for PCM audio captured by Audio Lab.
+    implementation("net.java.dev.jna:jna:5.18.1@aar")
+    implementation("com.alphacephei:vosk-android:0.3.75@aar")
+
     debugImplementation("androidx.compose.ui:ui-tooling")
 }
